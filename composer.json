@@ -1,5 +1,5 @@
 {
-    "name": "lucien-correia/pic-pay",
+    "name": "leonardo-ebert/pic-pay",
     "description": "PicPay SDK",
     "license": "MIT",
     "authors": [
@@ -7,6 +7,12 @@
             "name": "Lucien Risso Correia",
             "email": "lucien@wadvice.com.br",
             "homepage": "https://www.wadvice.com.br"
+        },
+        {
+            "name": "Leonardo Ebert",
+            "email": "leonardo@multiplier.com.br",
+            "role": "contributor",
+            "homepage": "https://wecomm.store"
         }
     ],
     "require": {
