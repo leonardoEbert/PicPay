@@ -35,7 +35,7 @@ class PicPay {
 
     /**
 	 * Seta o picpay token
-	 * 
+	 *
 	 * @param string $key
 	 */
 	public function setPicpayToken(string $picpayToken) {
@@ -44,16 +44,16 @@ class PicPay {
 
 	/**
 	 * Seta o seller token
-	 * 
+	 *
 	 * @param string $token
 	 */
 	public function setSellerToken(String $sellerToken) {
 		self::$sellerToken = $sellerToken;
     }
-    
+
     /**
      * Novo pagamento
-     * 
+     *
      * @param Payment $payment
      */
     public function payment(Payment $payment) {
@@ -79,7 +79,7 @@ class PicPay {
 
     /**
      * Consulta de status
-     * 
+     *
      * @param string $referenceId
      */
     public function status(string $referenceId) {
@@ -104,10 +104,11 @@ class PicPay {
 
     /**
      * Cancelar pagamento
-     * 
+     *
+     * @param string $referenceId
      * @param string $authorizationId
      */
-    public function cancel(string $authorizationId) {
+    public function cancel(string $referenceId, string $authorizationId) {
 
         $client = new Client;
 
